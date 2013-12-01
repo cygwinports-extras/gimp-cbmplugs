@@ -1,11 +1,14 @@
+NAME="gimp-cbmplugs"
+VERSION=1.2.2
+RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="GIMP plugin for Commodore 64 images"
 DESCRIPTION="These plugins for the GIMP v2.x are to be used for importing and
 exporting images from/to the Commodore 64.  A GIMP palette which tries to
 imitate the colours of the Commodore 64 as closely as possible is also included."
 HOMEPAGE="http://packages.debian.org/source/sid/cbmplugs"
-SRC_URI="mirror://debian/pool/main/c/cbmplugs/cbmplugs_${PV}.orig.tar.gz"
-SRC_DIR="cbmplugs-${PV}"
+SRC_URI="mirror://debian/pool/main/c/cbmplugs/cbmplugs_${VERSION}.orig.tar.gz"
+SRC_DIR="cbmplugs-${VERSION}"
 
 src_compile() {
 	lndirs
